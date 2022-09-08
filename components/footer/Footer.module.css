@@ -1,0 +1,32 @@
+.footer {
+    padding: 3rem 0 1rem 0;
+    background-color: var(--primary-bg);
+}
+
+.container {
+    max-width: 1600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+
+.tagline {
+    color: var(--white);
+    font-size: 1.3rem;
+    opacity: .9;
+}
+
+.social {
+    display: flex;
+    gap: 2rem;
+}
+
+.copyright {
+    border-top: 1px solid rgba(231, 231, 231, .2);
+    padding-top: 1rem;
+    text-align: center;
+    color: var(--white);
+    opacity: .8;
+}

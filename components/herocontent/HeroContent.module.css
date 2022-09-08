@@ -1,0 +1,22 @@
+.content {
+    flex: 1;
+    color: var(--white);
+}
+
+.title {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    line-height: 1.2;
+}
+
+.greeting {
+    font-weight: 600;
+    font-size: 4rem;
+}
+
+.description {
+    font-size: 1.3rem;
+    font-weight: 400;
+    opacity: .8;
+    margin-bottom: 4rem;
+}

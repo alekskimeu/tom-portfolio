@@ -1,0 +1,98 @@
+.project {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 10rem;
+    color: var(--white);
+}
+
+.project:nth-child(even) .imageContainer {
+    order: -1;
+}
+
+.project:not(:last-child) {
+    margin-bottom: 5rem;
+}
+
+.imageContainer, .image {
+    object-fit: cover;
+    max-width: 100%;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+.imageContainer {
+    position: relative;
+}
+
+.imageContainer::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    height: 40rem;
+    background-color: gray;
+    z-index: -1;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+}
+
+.project:nth-child(odd) .imageContainer::after {
+    width: 80%;
+    right: 0;
+}
+
+.project:nth-child(even) .imageContainer::after {
+    left: 0;
+    width: 80%;
+}
+
+
+.title {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.description {
+    opacity: .8;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.more {
+    color: yellow;
+    opacity: .9;
+    font-size: 1.1rem;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.more i {
+    margin-right: 1.5rem;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.more:hover {
+    opacity: .8;
+}
+
+.more:hover i {
+    margin-right: 2rem;
+}

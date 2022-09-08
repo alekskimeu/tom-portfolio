@@ -1,0 +1,50 @@
+.container {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.container::after {
+    content: "";
+    position: absolute;
+    height: 30rem;
+    width: 30rem;
+    border: 7rem solid green;
+    background-color: transparent;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.image {
+    width: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.figma, .xd {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    padding: 1rem;
+    z-index: 1;
+    background-color: var(--secondary-bg);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.figma {
+    left: 10rem;
+    top: 10rem;
+}
+
+.xd {
+    right: 10rem;
+    top: 10rem;
+}

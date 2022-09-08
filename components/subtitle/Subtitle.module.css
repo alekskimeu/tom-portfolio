@@ -1,0 +1,19 @@
+.subtitle {
+    font-weight: 400;
+    font-size: 1.2rem;
+    position: relative;
+    margin-left: 1.5rem;
+    color: green;
+}
+
+.subtitle::before {
+    position: absolute;
+    content: "";
+    border: none;
+    background-color: green;
+    height: 2px;
+    left: -2rem;
+    bottom: .82rem;
+    width: 1.5rem;
+    opacity: .8;
+}

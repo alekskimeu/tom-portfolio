@@ -1,0 +1,35 @@
+.skills {
+    padding: 10rem 0;
+}
+
+.container {
+    max-width: 1600px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+}
+
+.skillsContainer {
+    flex: 2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.content {
+    flex: 1.5;
+    color: var(--white);
+}
+
+.title {
+    margin: 1rem 0;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.description {
+    opacity: .8;
+    margin-bottom: 4rem;
+    font-size: 1.1rem;
+}

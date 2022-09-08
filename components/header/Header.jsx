@@ -1,6 +1,8 @@
 import Link from "next/link";
 import React from "react";
 import styles from "../../styles/Header.module.css";
+import Button from "../button/Button";
+import Icon from "../icon/Icon";
 
 const Header = () => {
 	return (
@@ -21,12 +23,8 @@ const Header = () => {
 					</Link>
 				</nav>
 				<div className={styles.contact}>
-					<a href="" className={styles.behance}>
-						<i className="fab fa-behance"></i>
-					</a>
-					<Link href="/contact">
-						<a className={styles.btnContact}>Contact Me</a>
-					</Link>
+					<Icon url="behance.com" icon="behance" />
+					<Button title="Contact Me" />
 				</div>
 			</div>
 		</header>

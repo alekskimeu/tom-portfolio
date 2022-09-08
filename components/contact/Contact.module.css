@@ -1,0 +1,79 @@
+.contact {
+    padding: 8rem 0;
+}
+
+.container {
+    overflow: hidden;
+    color: var(--white);
+    text-align: center;
+    max-width: 1240px;
+    margin: auto;
+    background-color: var(--primary-bg);
+    padding: 5rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    position: relative;
+}
+
+.container::before {
+    position: absolute;
+    content: "";
+    background-color: green;
+    border: 4rem solid green;
+    overflow: hidden;
+    top: -5rem;
+    left: -5rem;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.container::after {
+    position: absolute;
+    content: "";
+    background-color: transparent;
+    border: 4rem solid green;
+    overflow: hidden;
+    bottom: -5rem;
+    right: -5rem;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.title {
+    position: relative;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.title::before {
+    position: absolute;
+    content: "";
+    top: -1rem;
+    left: calc(50% - 3rem);
+    border: none;
+    background-color: green;
+    width: 6rem;
+    height: 3px;
+    margin: auto;
+}
+
+.description {
+    font-size: 1.1rem;
+    max-width: 700px;    
+    opacity: .8;
+    margin: 0 auto 3rem auto;
+}

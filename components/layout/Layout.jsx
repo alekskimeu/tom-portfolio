@@ -7,6 +7,7 @@ const Layout = ({ children }) => {
 		<>
 			<Header />
 			{children}
+			<i className="fas fa-arrow-up"></i>
 			<Footer />
 		</>
 	);
