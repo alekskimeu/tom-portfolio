@@ -6,6 +6,7 @@ import Subtitle from "../subtitle/Subtitle";
 import styles from "./Project.module.css";
 
 const Project = ({ project }) => {
+	const url = project.title.split(" ").join("-").toLowerCase();
 	return (
 		<div className={styles.project}>
 			<div className={styles.content}>
@@ -14,7 +15,7 @@ const Project = ({ project }) => {
 				<p className={styles.description}>
 					{project.description.substr(0, 160)}...
 				</p>
-				<Link href="">
+				<Link href={`/projects/${url}`}>
 					<a className={styles.more}>
 						<i className="fas fa-arrow-right-long"></i>Read more
 					</a>

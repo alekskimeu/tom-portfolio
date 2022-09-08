@@ -9,7 +9,7 @@ const HeroContent = () => {
 		<div className={styles.content}>
 			<Subtitle text="Intro" />
 			<h2 className={styles.title}>
-				<span className={styles.greeting}>Hello</span> <br /> Im Thomas Mwaka
+				<span className={styles.greeting}>Hello</span> <br /> I&#39;m Thomas Mwaka
 			</h2>
 			<p className={styles.description}>
 				I am a UI/UX Designer currently based in Kenya. I enjoy solving users

@@ -1,0 +1,74 @@
+.project {
+    padding: 15rem 0 5rem 0;
+}
+
+.container {
+    max-width: 1600px;
+    margin: auto;
+    display: flex;
+    align-items: start;
+    gap: 5rem;
+}
+
+.imageContainer {
+    flex: 2;
+}
+
+.imageContainer, .image {
+    border-radius: 5rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
+}
+
+.content {
+    flex: 1.5;
+}
+
+.title {
+    color: green;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.description {
+    color: var(--white);
+    margin-bottom: 3rem;
+    font-size: 1.1rem;
+    opacity: .8;
+}
+
+.btnLaunch {
+    background-color: gray;
+    color: var(--white);
+    padding: .8rem 2rem;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.btnLaunch i {
+    margin-left: .5rem;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.btnLaunch:hover {
+    opacity: .8;
+}
+
+.btnLaunch:hover i {
+    margin-left: 1rem;
+}
+
