@@ -13,13 +13,24 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
 	return (
-		<Layout>
-			<Hero />
-			<Skills />
-			<Projects />
-			<Stats />
-			<Testimonial />
-			<Contact />
-		</Layout>
+		<>
+			<Head>
+				<title>Tom Mwaka | UI/UX Designer</title>
+				<meta
+					name="description"
+					content="UI/UX Designer: (Figma, Adobe XD)"
+				/>
+								<meta name="keywords" content="Tom Mwaka, UI/UX Design" />
+
+			</Head>
+			<Layout>
+				<Hero />
+				<Skills />
+				<Projects />
+				<Stats />
+				<Testimonial />
+				<Contact />
+			</Layout>
+		</>
 	);
 }

@@ -1,0 +1,9 @@
+.wrapper {
+    position: relative;
+    overflow-x: hidden;
+}
+
+.wrap {
+    padding-bottom: 15rem;
+    min-height: 100vh;
+}

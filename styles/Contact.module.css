@@ -1,0 +1,62 @@
+.contact {
+    padding: 20rem 0 10rem 0;
+}
+
+.container {
+    max-width: 1600px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10rem;
+}
+
+.content {
+    color: var(--white);
+}
+
+.title {
+    margin: .8rem 0 1rem 0;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.description {
+    font-size: 1.1rem;
+    opacity: .8;
+}
+
+.icons {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.form input, .form textarea {
+    outline: 0;
+    background-color: var(--primary-bg);
+    border: 1px solid green;
+    padding: 1rem 1.2rem;
+    color: var(--white);
+    font-size: 1.1rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.form input::placeholder, .form textarea::placeholder {
+    color: var(--white);
+}
