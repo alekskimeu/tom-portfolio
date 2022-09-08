@@ -1,6 +1,7 @@
 .projects {
-    padding: 10rem 0;
+    padding: 20rem 0 15rem 0;
     position: relative;
+    overflow-x: hidden;
 }
 
 .circle {
@@ -8,9 +9,10 @@
     content: "";
     height: 18rem;
     width: 18rem;
-    top: 57%;
+    top: 41%;
+    left: -9%;
     background: transparent;
-    border: 4.5rem solid yellow;
+    border: 6.5rem solid yellow;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -18,6 +20,21 @@
     -o-border-radius: 50%;
 }
 
+.donut {
+    position: absolute;
+    content: "";
+    height: 18rem;
+    width: 18rem;
+    top: 58%;
+    right: -9%;
+    background: transparent;
+    border: 6.5rem solid green;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
 .container {
     max-width: 1300px;
     margin: auto;

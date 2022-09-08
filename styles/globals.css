@@ -20,6 +20,7 @@ body {
   font-family: 'Poppins', sans-serif;
   background-color: var(--secondary-bg);
   position: relative;
+  overflow-x: hidden;
 }
 
 h1,h2 {
