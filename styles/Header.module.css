@@ -77,12 +77,16 @@
     color: var(--white);
     opacity: .8;
     background: var(--secondary-bg);
-    padding: .8rem 1.2rem;
+    padding: .8rem 1rem .6rem 1rem;
     border-radius: 1rem;
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
+}
+
+.mobileIcon i {
+    font-size: 1.4rem;
 }
 
 @media screen and (max-width: 1000px) {

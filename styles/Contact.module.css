@@ -27,8 +27,9 @@
 
 .icons {
     margin-top: 2rem;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .form form {
@@ -46,7 +47,7 @@
 .form input, .form textarea {
     outline: 0;
     background-color: var(--primary-bg);
-    border: 1px solid green;
+    border: 1px solid var(--primary);
     padding: 1rem 1.2rem;
     color: var(--white);
     font-size: 1.1rem;
@@ -64,7 +65,8 @@
 
 @media screen and (max-width: 1300px) {
     .container {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
         gap: 4rem;
     }
 

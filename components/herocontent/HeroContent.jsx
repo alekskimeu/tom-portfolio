@@ -22,8 +22,10 @@ const HeroContent = () => {
 				data-aos="fade-down"
 				data-aos-duration="1600"
 			>
-				I am a UI/UX Designer currently based in Kenya. I enjoy solving users
-				problems and turning them into user friendly designs
+				I am a UX Designer based in Nairobi, Kenya. I approach design with a focus on people, establishing empathy 
+for both the people who make and the people who use the products I help bring to life. 
+
+
 			</p>
 			<Button
 				title="Contact Me"

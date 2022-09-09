@@ -71,7 +71,7 @@
 }
 
 .more {
-    color: yellow;
+    color: var(--secondary);
     opacity: .9;
     font-size: 1.1rem;
     transition: all .5s ease;

@@ -21,7 +21,7 @@
 
 .icon i {
     font-size: 1.8rem;
-    color: green;
+    color: var(--secondary);
 }
 
 .title {
@@ -42,7 +42,6 @@
     
     .icon i {
         font-size: 1.4rem;
-        color: green;
     }
     
     .title {

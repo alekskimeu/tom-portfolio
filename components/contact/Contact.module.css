@@ -21,8 +21,8 @@
 .container::before {
     position: absolute;
     content: "";
-    background-color: green;
-    border: 4rem solid green;
+    background-color: var(--primary);
+    border: 4rem solid var(--primary);
     overflow: hidden;
     top: -5rem;
     left: -5rem;
@@ -39,7 +39,7 @@
     position: absolute;
     content: "";
     background-color: transparent;
-    border: 4rem solid green;
+    border: 4rem solid var(--primary);
     overflow: hidden;
     bottom: -5rem;
     right: -5rem;
@@ -65,7 +65,7 @@
     top: -1rem;
     left: calc(50% - 3rem);
     border: none;
-    background-color: green;
+    background-color: var(--secondary);
     width: 6rem;
     height: 3px;
     margin: auto;

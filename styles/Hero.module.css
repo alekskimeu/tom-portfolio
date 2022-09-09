@@ -7,15 +7,16 @@
 .hero .container {
     max-width: 1600px;
     margin: auto;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
     align-items: center;
-    gap: 3rem;
+    gap: 8rem;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     .hero .container {
-        flex-direction: column;
+        grid-template-columns: 1fr;
         gap: 5rem;
     }
 }

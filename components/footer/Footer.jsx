@@ -8,9 +8,12 @@ const Footer = () => {
 			<div className={styles.container}>
 				<h1 className={styles.tagline}>Based in Kenya, working Worldwide</h1>
 				<div className={styles.social}>
-					<Icon url="" icon="linkedin" />
-					<Icon url="" icon="behance" />
-					<Icon url="" icon="twitter" />
+					<Icon url="https://www.behance.net/thomasmwaka" icon="behance" />
+					<Icon
+						url="https://www.linkedin.com/in/thomasmwaka/"
+						icon="linkedin"
+					/>
+					<Icon url="https://twitter.com/_thomasmwaka" icon="twitter" />
 				</div>
 			</div>
 			<div className={styles.copyright}>

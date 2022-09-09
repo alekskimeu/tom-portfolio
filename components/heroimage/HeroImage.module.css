@@ -1,32 +1,30 @@
 .container {
-    flex: 2;
     display: flex;
-    justify-content: center;
     align-items: center;
-    position: relative;
+    justify-content: center;
 }
 
-.container::after {
-    content: "";
-    position: absolute;
-    height: 30rem;
-    width: 30rem;
-    border: 7rem solid green;
-    background-color: transparent;
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    overflow: hidden;
+    border: 6rem solid var(--primary);
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+    padding: 3rem;
 }
 
-.image {
-    width: 100%;
-    object-fit: cover;
-    z-index: 1;
-}
-
-.figma, .xd {
+.figma, .xd, .miro, .zeplin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     width: 100px;
     height: 100px;
@@ -41,120 +39,112 @@
 }
 
 .figma {
-    left: 10rem;
-    top: 10rem;
+    left: 6rem;
+    top: 2rem;
 }
 
 .xd {
-    right: 10rem;
-    top: 10rem;
+    right: 6rem;
+    top: 2rem;
 }
 
-@media screen and (max-width: 1300px) {
-    .container {
-        flex: 1;
-    }
+.miro {
+    left: 6rem;
+    bottom: 2rem;
+}
 
-    .container::after {
-        height: 20rem;
-        width: 20rem;
-        border: 7rem solid green;
-    }
+.zeplin {
+    right: 6rem;
+    bottom: 2rem;
+}
 
+@media screen and (max-width: 1500px) {
     .figma {
-        left: -1rem;
-        top: 10rem;
+        left: 3.5rem;
+        top: 2rem;
     }
     
     .xd {
-        right: -1rem;
-        top: 10rem;
+        right: 3.5rem;
+        top: 2rem;
+    }
+    
+    .miro {
+        left: 3.5rem;
+        bottom: 2rem;
+    }
+    
+    .zeplin {
+        right: 3.5rem;
+        bottom: 2rem;
     }
 }
 
-@media screen and (max-width: 1100px) {
-    .container::after {
-        height: 16rem;
-        width: 16rem;
-        border: 6rem solid green;
-    }
-}
-
-@media screen and (max-width: 1000px) {
-    .container::after {
-        height: 25rem;
-        width: 25rem;
-        border: 8rem solid green;
-    }
-
+@media screen and (max-width: 1400px) {
     .figma {
-        left: -11rem;
-        top: 10rem;
+        left: 2rem;
+        top: 2rem;
     }
     
     .xd {
-        right: -11rem;
-        top: 10rem;
+        right: 2rem;
+        top: 2rem;
+    }
+    
+    .miro {
+        left: 2rem;
+        bottom: 2rem;
+    }
+    
+    .zeplin {
+        right: 2rem;
+        bottom: 2rem;
+    }
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .image {
+        background-color: rgba(213, 210, 228, .3);
+        border: none;
+        width: 100%;
+        height: auto;
+        border-radius: 2rem;
+        -webkit-border-radius: 2rem;
+        -moz-border-radius: 2rem;
+        -ms-border-radius: 2rem;
+        -o-border-radius: 2rem;
+    }
+
+    .figma, .xd, .miro, .zeplin {
+        background-color: rgba(213, 210, 228, .3);
     }
 }
 
-@media screen and (max-width: 800px) {
-    .container::after {
-        height: 20rem;
-        width: 20rem;
-        border: 7rem solid green;
+@media screen and (max-width: 624px) {
+    .figma, .xd, .miro, .zeplin {
+        width: 50px;
+        height: 50px;
+        padding: .5rem;
     }
 
     .figma {
-        left: -7rem;
-        top: 10rem;
+        top: 1rem;
+        left: 1rem;
     }
-    
+
     .xd {
-        right: -7rem;
-        top: 10rem;
-    }
-}
-
-
-@media screen and (max-width: 630px) {
-    .container::after {
-        height: 17rem;
-        width: 17rem;
-        border: 6rem solid green;
+        top: 1rem;
+        right: 1rem;
     }
 
-    .figma {
-        left: -4rem;
-        top: 10rem;
-    }
-    
-    .xd {
-        right: -4rem;
-        top: 10rem;
-    }
-}
-
-@media  screen and (max-width: 520px) {
-    .container::after {
-        height: 16rem;
-        width: 16rem;
-        border: 5rem solid green;
+    .miro {
+        bottom: 1rem;
+        left: 1rem;
     }
 
-    .figma {
-        left: -2.5rem;
-        top: 10rem;
-    }
-    
-    .xd {
-        right: -2.5rem;
-        top: 10rem;
-    }
-}
-
-@media screen  and (max-width: 500px) {
-    .imageContainer {
-        display: none;
+    .zeplin {
+        bottom: 1rem;
+        right: 1rem;
     }
 }

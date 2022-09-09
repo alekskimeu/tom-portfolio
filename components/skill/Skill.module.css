@@ -10,11 +10,11 @@
     -moz-border-radius: 1rem;
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
-    transition: all .5s ease;
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -ms-transition: all .5s ease;
-    -o-transition: all .5s ease;
+    transition: all .6s ease;
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -ms-transition: all .6s ease;
+    -o-transition: all .6s ease;
 }
 
 .skill:nth-child(even) {
@@ -22,18 +22,34 @@
 }
 
 .skill:hover {
-    background-color: green;
+    background-color: var(--primary);
 }
 
 .title {
     margin: 1rem 0;
     font-weight: 700;
     font-size: 1.6rem;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
 }
 
 .description {
     font-size: 1.1rem;
     opacity: .8;
+    transition: all .5s ease
+}
+
+.skill:hover .title, .skill:hover .description {
+    color: var(--secondary-bg);
+}
+
+@media screen and (max-width: 1400px) {
+    .skill {
+        max-height: fit-content;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -42,7 +58,7 @@
     }
 }
 
-@media and screen (max-width: 624px) {
+@media screen and  (max-width: 624px) {
     .title {
         font-weight: 600;
         font-size: 1.4rem;

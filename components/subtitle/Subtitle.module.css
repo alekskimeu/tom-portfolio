@@ -3,14 +3,14 @@
     font-size: 1.2rem;
     position: relative;
     margin-left: 1.5rem;
-    color: green;
+    color: var(--secondary);
 }
 
 .subtitle::before {
     position: absolute;
     content: "";
     border: none;
-    background-color: green;
+    background-color: var(--secondary);
     height: 2px;
     left: -2rem;
     bottom: .82rem;

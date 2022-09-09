@@ -9,6 +9,8 @@
 }
 
 :root {
+  --primary: #D5D2E4;
+  --secondary: #FECD70;
   --primary-bg: #25262A;
   --secondary-bg: #2d2e32;
   --white: #FFFFFF;

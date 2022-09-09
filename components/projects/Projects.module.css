@@ -10,7 +10,7 @@
     width: 18rem;
     top: 57%;
     background: transparent;
-    border: 4.5rem solid yellow;
+    border: 4.5rem solid var(--secondary);
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;

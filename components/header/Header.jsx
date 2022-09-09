@@ -31,13 +31,13 @@ const Header = () => {
 				</nav>
 					<div className={styles.mobileIcon}>
 						{!show ?
-						<i className="fas fa-close fa-2x" onClick={toggleMobileMenu}></i>
+						<i className="fas fa-close" onClick={toggleMobileMenu}></i>
 						:
-						<i className="fas fa-bars fa-2x" onClick={toggleMobileMenu}></i>	
+						<i className="fas fa-bars" onClick={toggleMobileMenu}></i>	
 					}
 					</div>
 				<div className={styles.contact}>
-					<Icon url="https://behance.com" icon="behance" className={styles.contactIcon} />
+					<Icon url="https://www.behance.net/thomasmwaka" icon="behance" className={styles.contactIcon} />
 					<Button title="Contact Me" url="/contact" className={styles.contactIcon} />
 				</div>
 			</div>

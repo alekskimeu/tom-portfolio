@@ -27,7 +27,7 @@
 }
 
 .title {
-    color: green;
+    color: var(--primary);
     font-size: 3rem;
     margin-bottom: 2rem;
 }

@@ -28,13 +28,13 @@
     top: -3rem;
     right: 4rem;
     background-color: transparent;
-    border: 1.3rem solid yellow;
+    border: 1.3rem solid var(--primary);
 }
 
 .circle {
     bottom: -4rem;
     left: 3rem;
-    background-color: yellow;
+    background-color: var(--primary);
 }
 
 @media screen and (max-width: 1000px) {

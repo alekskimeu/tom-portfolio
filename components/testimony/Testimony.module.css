@@ -47,7 +47,7 @@
 
 .content i {
     font-size: 5rem;
-    color: green;
+    color: var(--secondary);
 }
 
 .description {
@@ -59,7 +59,7 @@
 
 .name {
     font-size: 1.4rem;
-    color: green;
+    color: var(--secondary);
     font-weight: 400;
     margin-bottom: 1rem;
 }

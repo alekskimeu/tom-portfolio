@@ -16,7 +16,7 @@
 }
 
 .number {
-    color: green;
+    color: var(--secondary);
     font-size: 5rem;
     margin-bottom: 1rem;
 }
