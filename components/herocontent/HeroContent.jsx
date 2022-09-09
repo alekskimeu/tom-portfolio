@@ -25,7 +25,12 @@ const HeroContent = () => {
 				I am a UI/UX Designer currently based in Kenya. I enjoy solving users
 				problems and turning them into user friendly designs
 			</p>
-			<Button title="Contact Me" dataAos="fade-up" dataAosDuration="2000" />
+			<Button
+				title="Contact Me"
+				url="/contact"
+				dataAos="fade-up"
+				dataAosDuration="2000"
+			/>
 		</div>
 	);
 };

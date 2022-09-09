@@ -5,6 +5,7 @@
     top: 0;
     width: 100%;
     z-index: 2;
+    padding: .5rem 2rem;
 }
 
 .header .navbar {
@@ -22,13 +23,18 @@
     font-weight: 700;
 }
 
-.header .nav {
+.header .nav, .header .show {
     display: flex;
     align-items: center;
     gap: 3rem;
+    transition: all .8s ease;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -ms-transition: all .8s ease;
+    -o-transition: all .8s ease;
 }
 
-.header .nav .menu {
+.header .nav .menu, .header .show .menu {
     color: var(--white);
     font-size: 1.2rem;
     position: relative;
@@ -39,7 +45,7 @@
     -o-transition: all .5s ease;
 }
 
-.header .nav .menu::after {
+.header .nav .menu::after, .header .show .menu::after {
     position: absolute;
     content: "";
     left: 0;
@@ -55,7 +61,7 @@
     -o-transition: all .5s ease;
 }
 
-.header .nav .menu:hover::after {
+.header .nav .menu:hover::after, .header .show .menu:hover::after {
     width: 100%;
 }
 
@@ -64,4 +70,66 @@
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
+}
+
+.mobileIcon {
+    display: none;
+    color: var(--white);
+    opacity: .8;
+    background: var(--secondary-bg);
+    padding: .8rem 1.2rem;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .header .contact {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .mobileIcon {
+        display: block;
+        z-index: 2;
+    }
+
+    .header .nav {
+        display: none;
+        transition: all .8s ease;
+        -webkit-transition: all .8s ease;
+        -moz-transition: all .8s ease;
+        -ms-transition: all .8s ease;
+        -o-transition: all .8s ease;
+}
+
+    .header .show {
+        display: flex;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        flex-direction: column;
+        justify-content: center;
+        width: 100vw;
+        z-index: 2;
+        background: var(--primary-bg);
+        padding: 2rem;
+        transition: all .8s ease;
+    }
+
+    .header .nav .menu {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 624px) {
+    .header .contact  {
+        display: none;
+    }
 }

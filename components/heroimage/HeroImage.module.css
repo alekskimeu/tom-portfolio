@@ -2,6 +2,7 @@
     flex: 2;
     display: flex;
     justify-content: center;
+    align-items: center;
     position: relative;
 }
 
@@ -47,4 +48,113 @@
 .xd {
     right: 10rem;
     top: 10rem;
+}
+
+@media screen and (max-width: 1300px) {
+    .container {
+        flex: 1;
+    }
+
+    .container::after {
+        height: 20rem;
+        width: 20rem;
+        border: 7rem solid green;
+    }
+
+    .figma {
+        left: -1rem;
+        top: 10rem;
+    }
+    
+    .xd {
+        right: -1rem;
+        top: 10rem;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .container::after {
+        height: 16rem;
+        width: 16rem;
+        border: 6rem solid green;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container::after {
+        height: 25rem;
+        width: 25rem;
+        border: 8rem solid green;
+    }
+
+    .figma {
+        left: -11rem;
+        top: 10rem;
+    }
+    
+    .xd {
+        right: -11rem;
+        top: 10rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container::after {
+        height: 20rem;
+        width: 20rem;
+        border: 7rem solid green;
+    }
+
+    .figma {
+        left: -7rem;
+        top: 10rem;
+    }
+    
+    .xd {
+        right: -7rem;
+        top: 10rem;
+    }
+}
+
+
+@media screen and (max-width: 630px) {
+    .container::after {
+        height: 17rem;
+        width: 17rem;
+        border: 6rem solid green;
+    }
+
+    .figma {
+        left: -4rem;
+        top: 10rem;
+    }
+    
+    .xd {
+        right: -4rem;
+        top: 10rem;
+    }
+}
+
+@media  screen and (max-width: 520px) {
+    .container::after {
+        height: 16rem;
+        width: 16rem;
+        border: 5rem solid green;
+    }
+
+    .figma {
+        left: -2.5rem;
+        top: 10rem;
+    }
+    
+    .xd {
+        right: -2.5rem;
+        top: 10rem;
+    }
+}
+
+@media screen  and (max-width: 500px) {
+    .imageContainer {
+        display: none;
+    }
 }

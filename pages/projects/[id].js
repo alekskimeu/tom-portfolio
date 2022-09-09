@@ -18,21 +18,31 @@ const Project = ({ project }) => {
 			<Layout>
 				<section className={styles.project}>
 					<div className={styles.container}>
-						<div className={styles.imageContainer} data-aos="zoom-in"
-								data-aos-duration="2400">
+						<div
+							className={styles.imageContainer}
+							data-aos="zoom-in"
+							data-aos-duration="2400"
+						>
 							<Image
 								src={project.project[0].image}
 								alt={project.project[0].title}
 								className={styles.image}
 							/>
 						</div>
-						<div className={styles.content} data-aos="fade-up"
-								data-aos-duration="2400">
+						<div
+							className={styles.content}
+							data-aos="fade-up"
+							data-aos-duration="2400"
+						>
 							<h1 className={styles.title}>{project.project[0].title}</h1>
 							<p className={styles.description}>
 								{project.project[0].description}
 							</p>
-							<a href="" target="_blank" className={styles.btnLaunch}>
+							<a
+								href={project.project[0].url}
+								target="_blank"
+								className={styles.btnLaunch}
+							>
 								Launch Project<i className="fas fa-arrow-right-long"></i>
 							</a>
 						</div>

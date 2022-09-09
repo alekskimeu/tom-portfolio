@@ -1,5 +1,5 @@
 .stats {
-    padding: 4rem 0;
+    padding: 4rem 2rem;
 }
 
 .container {
@@ -35,4 +35,23 @@
     bottom: -4rem;
     left: 3rem;
     background-color: yellow;
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        grid-template-columns: 1fr;
+        gap: .1rem;
+    }
+
+    .donut {
+        top: -3rem;
+        right: 0;
+    }
+    
+    .circle {
+        bottom: -4rem;
+        left: 0;
+    }
+    
+
 }

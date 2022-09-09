@@ -60,7 +60,7 @@ const contact = () => {
 						</div>
 						<div
 							className={styles.form}
-							data-aos="fade-up"
+							data-aos="zoom-in"
 							data-aos-duration="2400"
 						>
 							<form>

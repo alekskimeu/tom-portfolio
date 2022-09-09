@@ -7,6 +7,7 @@ export const projects = [
 		description:
 			"The world breaks everyone, and afterwards, many are strong at the broken places. The world breaks everyone, and afterwards, many are strong at the broken places. The world breaks everyone, and afterwards, many are strong at the broken places. The world breaks everyone, and afterwards, many are strong at the broken places.",
 		image: image,
+		url: "https://behance.com"
 	},
 	{
 		title: "Mahanaim",
@@ -14,6 +15,7 @@ export const projects = [
 		description:
 			"The world breaks everyone, and afterwards, many are strong at the broken places. The world breaks everyone, and afterwards, many are strong at the broken places. The world breaks everyone, and afterwards, many are strong at the broken places. The world breaks everyone, and afterwards, many are strong at the broken places.",
 		image: image,
+		url: "https://behance.com"
 	},
 	{
 		title: "FYE",
@@ -21,6 +23,7 @@ export const projects = [
 		description:
 			"The world breaks everyone, and afterwards, many are strong at the broken places. The world breaks everyone, and afterwards, many are strong at the broken places. The world breaks everyone, and afterwards, many are strong at the broken places. The world breaks everyone, and afterwards, many are strong at the broken places.",
 		image: image,
+		url: "https://behance.com"
 	},
 	{
 		title: "WEDCO",
@@ -28,6 +31,7 @@ export const projects = [
 		description:
 			"The world breaks everyone, and afterwards, many are strong at the broken places. The world breaks everyone, and afterwards, many are strong at the broken places. The world breaks everyone, and afterwards, many are strong at the broken places. The world breaks everyone, and afterwards, many are strong at the broken places.",
 		image: image,
+		url: "https://behance.com"
 	},
 	{
 		title: "Koila",
@@ -35,5 +39,6 @@ export const projects = [
 		description:
 			"The world breaks everyone, and afterwards, many are strong at the broken places. The world breaks everyone, and afterwards, many are strong at the broken places. The world breaks everyone, and afterwards, many are strong at the broken places. The world breaks everyone, and afterwards, many are strong at the broken places.",
 		image: image,
+		url: "https://behance.com"
 	},
 ];

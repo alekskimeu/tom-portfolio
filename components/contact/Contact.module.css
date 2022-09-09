@@ -1,5 +1,5 @@
 .contact {
-    padding: 8rem 0;
+    padding: 8rem 2rem;
 }
 
 .container {
@@ -76,4 +76,25 @@
     max-width: 700px;    
     opacity: .8;
     margin: 0 auto 4rem auto;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 3rem;
+    }
+
+    .container::before {
+        height: 3rem;
+        width: 3rem;
+    }
+    
+    .container::after {
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .title {
+        font-size: 1.8rem;
+    }
+    
 }

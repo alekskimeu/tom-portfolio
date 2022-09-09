@@ -1,5 +1,5 @@
 .skills {
-    padding: 10rem 0;
+    padding: 10rem 2rem;
 }
 
 .container {
@@ -32,4 +32,22 @@
     opacity: .8;
     margin-bottom: 4rem;
     font-size: 1.1rem;
+}
+
+@media screen and (max-width: 1400px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .skillsContainer {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+}
+
+@media screen and (max-width: 624px) {
+    .title {
+        font-size: 1.6rem;
+    }
+    
 }

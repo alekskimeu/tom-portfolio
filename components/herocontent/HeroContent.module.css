@@ -20,3 +20,31 @@
     opacity: .8;
     margin-bottom: 4rem;
 }
+
+@media screen and (max-width: 1300px) {
+    .title {
+        font-size: 4rem;
+    }
+
+    .greeting {
+        font-size: 3rem;
+    }
+    
+    .description {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 624px) {
+    .title {
+        font-size: 3rem;
+    }
+
+    .greeting {
+        font-size: 2rem;
+    }
+    
+    .description {
+        font-size: 1.1rem;
+    }
+}

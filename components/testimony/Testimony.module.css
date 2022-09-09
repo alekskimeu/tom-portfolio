@@ -25,7 +25,7 @@
     top: 0;
     left: 0;
     width: 90%;
-    height: 25rem;
+    height: 100%;
     background-color: gray;
     z-index: -1;
     border-radius: 2rem;
@@ -52,8 +52,8 @@
 
 .description {
     margin: 2rem 0;
-    font-weight: 500;
-    font-size: 1.3rem;
+    font-weight: 400;
+    font-size: 1.1rem;
     opacity: .8;
 }
 
@@ -66,4 +66,32 @@
 
 .role {
     font-size: 1.1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .testimony {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .imageContainer {
+        flex: 1;
+    }
+    .content {
+        flex: 1;
+    }
+}
+
+@media screen and (max-width: 624px) {
+    .description {
+        font-size: 1rem;
+    }
+    
+    .name {
+        font-size: 1.2rem;
+    }
+    
+    .role {
+        font-size: 1rem;
+    }
 }

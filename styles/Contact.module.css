@@ -1,5 +1,5 @@
 .contact {
-    padding: 20rem 0 10rem 0;
+    padding: 15rem 2rem 10rem 2rem;
 }
 
 .container {
@@ -59,4 +59,34 @@
 
 .form input::placeholder, .form textarea::placeholder {
     color: var(--white);
+}
+
+
+@media screen and (max-width: 1300px) {
+    .container {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+
+    .content {
+        border-bottom: 1px solid rgba(231, 231, 231, .1);
+        padding-bottom: 4rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .group {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+}
+
+@media screen and (max-width: 624px) {
+    .title {
+        font-size: 1.4rem;
+    }
+    
+    .description {
+        font-size: 1rem;
+    }
 }
