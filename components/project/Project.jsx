@@ -9,7 +9,11 @@ const Project = ({ project }) => {
 	const url = project.title.split(" ").join("-").toLowerCase();
 	return (
 		<div className={styles.project}>
-			<div className={styles.content}>
+			<div
+				className={styles.content}
+				data-aos="fade-up"
+				data-aos-duration="1800"
+			>
 				<Subtitle text={project.subtitle} />
 				<h1 className={styles.title}>{project.title}</h1>
 				<p className={styles.description}>
@@ -21,7 +25,11 @@ const Project = ({ project }) => {
 					</a>
 				</Link>
 			</div>
-			<div className={styles.imageContainer}>
+			<div
+				className={styles.imageContainer}
+				data-aos="zoom-in"
+				data-aos-duration="2400"
+			>
 				<Image
 					src={project.image}
 					alt={project.title}

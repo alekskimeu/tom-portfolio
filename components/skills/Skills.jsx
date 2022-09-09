@@ -15,7 +15,8 @@ const Skills = () => {
 						<Skill key={skill.index} skill={skill} />
 					))}
 				</div>
-				<div className={styles.content}>
+				<div className={styles.content} data-aos="fade-left"
+				data-aos-duration="1800">
 					<Subtitle text="My Skills" />
 					<h2 className={styles.title}>
 						Why Hire Me For Next <br /> Project?

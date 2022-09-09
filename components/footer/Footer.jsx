@@ -14,7 +14,7 @@ const Footer = () => {
 				</div>
 			</div>
 			<div className={styles.copyright}>
-				<p>Copyright © 2022 Thomas </p>
+				<p>Copyright © {new Date().getFullYear()} Thomas </p>
 			</div>
 		</footer>
 	);

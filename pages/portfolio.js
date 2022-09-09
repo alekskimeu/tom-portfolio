@@ -17,8 +17,16 @@ const portfolio = () => {
 			</Head>
 			<Layout>
 				<section className={styles.projects}>
-					<div className={styles.circle}></div>
-					<div className={styles.donut}></div>
+					<div
+						className={styles.circle}
+						data-aos="fade-right"
+						data-aos-duration="2400"
+					></div>
+					<div
+						className={styles.donut}
+						data-aos="fade-left"
+						data-aos-duration="2400"
+					></div>
 					<div className={styles.container}>
 						{projects.map((project) => (
 							<Project key={project.index} project={project} />

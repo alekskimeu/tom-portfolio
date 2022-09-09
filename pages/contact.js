@@ -9,9 +9,7 @@ const contact = () => {
 	return (
 		<>
 			<Head>
-				<title>
-					Tom Mwaka | Contact
-				</title>
+				<title>Tom Mwaka | Contact</title>
 				<meta
 					name="description"
 					content="Software Developer: (Figma, Adobe XD)"
@@ -22,14 +20,32 @@ const contact = () => {
 				<section className={styles.contact}>
 					<div className={styles.container}>
 						<div className={styles.content}>
-							<Subtitle text="Contact Me" />
-							<h1 className={styles.title}>Get In Touch With Me</h1>
-							<p className={styles.description}>
+							<Subtitle
+								text="Contact Me"
+								dataAos="fade-right"
+								dataAosDuration="1800"
+							/>
+							<h1
+								className={styles.title}
+								data-aos="fade-up"
+								data-aos-duration="2000"
+							>
+								Get In Touch With Me
+							</h1>
+							<p
+								className={styles.description}
+								data-aos="fade-up"
+								data-aos-duration="2200"
+							>
 								I am currently available for projects. Please feel free to use
 								this form or email me about your project!
 							</p>
 
-							<div className={styles.icons}>
+							<div
+								className={styles.icons}
+								data-aos="fade-up"
+								data-aos-duration="2400"
+							>
 								<SocialIcon
 									title="Phone"
 									icon="fa-phone"
@@ -42,7 +58,11 @@ const contact = () => {
 								/>
 							</div>
 						</div>
-						<div className={styles.form}>
+						<div
+							className={styles.form}
+							data-aos="fade-up"
+							data-aos-duration="2400"
+						>
 							<form>
 								<div className={styles.group}>
 									<input type="text" placeholder="Full Name" />

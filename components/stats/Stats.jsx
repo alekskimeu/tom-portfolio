@@ -12,8 +12,16 @@ const Stats = () => {
 				{stats.map((stat) => (
 					<Stat key={stat.index} stat={stat} />
 				))}
-				<div className={styles.donut}></div>
-				<div className={styles.circle}></div>
+				<div
+					className={styles.donut}
+					data-aos="fade-left"
+					data-aos-duration="2600"
+				></div>
+				<div
+					className={styles.circle}
+					data-aos="fade-right"
+					data-aos-duration="2600"
+				></div>
 			</div>
 		</section>
 	);

@@ -9,7 +9,11 @@ import styles from "./Projects.module.css";
 const Projects = () => {
 	return (
 		<section className={styles.projects}>
-			<div className={styles.circle}></div>
+			<div
+				className={styles.circle}
+				data-aos="fade-right"
+				data-aos-duration="2600"
+			></div>
 			<div className={styles.container}>
 				{projects.slice(0, 3).map((project) => (
 					<Project key={project.index} project={project} />

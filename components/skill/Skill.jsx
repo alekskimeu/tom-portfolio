@@ -4,7 +4,8 @@ import styles from "./Skill.module.css";
 
 const Skill = ({ skill }) => {
 	return (
-		<div className={styles.skill}>
+		<div className={styles.skill} data-aos="fade-up"
+		data-aos-duration="1800">
 			<Image src={skill.icon} alt={skill.title} width="50" height="50" />
 			<h1 className={styles.title}>{skill.title}</h1>
 			<p className={styles.description}>{skill.description}</p>
