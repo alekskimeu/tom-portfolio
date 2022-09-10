@@ -47,23 +47,23 @@
 }
 
 .figma {
-    left: -6rem;
-    top: 2rem;
+    left: -7rem;
+    top: 0rem;
 }
 
 .xd {
-    right: -6rem;
-    top: 2rem;
+    right: -7rem;
+    top: 0rem;
 }
 
 .miro {
-    left: -6rem;
-    bottom: 2rem;
+    left: -7rem;
+    bottom: 0rem;
 }
 
 .zeplin {
-    right: -6rem;
-    bottom: 2rem;
+    right: -7rem;
+    bottom: 0rem;
 }
 
 @media screen and (max-width: 768px) {
