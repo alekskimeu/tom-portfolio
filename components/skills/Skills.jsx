@@ -22,7 +22,7 @@ const Skills = () => {
 				>
 					<Subtitle text="My Skills" />
 					<h2 className={styles.title}>
-						Why Hire Me For Next <br /> Project?
+						Why Hire Me For Your Next <br /> Project?
 					</h2>
 					<p className={styles.description}>
 						I approach every product or service with a design thinking mindset
