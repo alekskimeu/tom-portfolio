@@ -42,6 +42,7 @@ const Project = ({ project }) => {
 								href={project.project[0].url}
 								target="_blank"
 								className={styles.btnLaunch}
+								rel="noreferrer"
 							>
 								Launch Project<i className="fas fa-arrow-right-long"></i>
 							</a>
