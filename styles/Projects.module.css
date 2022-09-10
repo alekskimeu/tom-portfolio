@@ -1,5 +1,5 @@
 .projects {
-    padding: 20rem 2rem 15rem 2rem;
+    padding: 20rem 1rem 15rem 1rem;
     position: relative;
     overflow-x: hidden;
 }
@@ -12,7 +12,7 @@
     top: 40%;
     left: -9%;
     background: transparent;
-    border: 5rem solid yellow;
+    border: 5rem solid var(--secondary);
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -28,7 +28,7 @@
     top: 58%;
     right: -9%;
     background: transparent;
-    border: 5rem solid green;
+    border: 5rem solid var(--primary);
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -54,7 +54,32 @@
 }
 
 @media  screen and (max-width: 900px) {
+    .projects {
+        padding: 15rem 1rem 15rem 1rem;
+    }
+
     .donut {
         top: 60%;
     }
+
+    .circle {
+        height: 8rem;
+        width: 8rem;
+        border-width: 3rem;
+    }
 }
+
+@media  screen and (max-width: 500px) {
+    .donut {
+        height: 8rem;
+        width: 8rem;
+        border-width: 3rem;
+    }
+
+    .circle {
+        height: 5rem;
+        width: 5rem;
+        border-width: 2rem;
+    }
+}
+

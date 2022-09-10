@@ -101,11 +101,21 @@
 @media screen and (max-width: 900px) {
     .project {
         grid-template-columns: 1fr;
+        gap: 5rem;
+    }
+
+    .imageContainer {
+        padding: 0 2rem;
     }
 
     .project:nth-child(even) .imageContainer {
         order: 2;
     }
+
+    .project:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+    
     
 }
 

@@ -1,5 +1,5 @@
 .hero {
-    padding: 12rem 2rem;
+    padding: 12rem 1rem;
     min-height: 100vh;
     background-color: var(--primary-bg);
 }

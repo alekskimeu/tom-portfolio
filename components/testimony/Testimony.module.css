@@ -69,6 +69,12 @@
     font-size: 1.1rem;
 }
 
+@media screen and (max-width: 1000px) {
+    .testimony {
+        margin-right: 0;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .testimony {
         flex-direction: column;

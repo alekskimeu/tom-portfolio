@@ -7,7 +7,7 @@
     top: 0;
     width: 100%;
     z-index: 2;
-    padding: .5rem 2rem;
+    padding: .5rem 1rem;
 }
 
 .header .navbar {
@@ -139,4 +139,11 @@
     .header .contact  {
         display: none;
     }
+}
+
+@media screen and (max-width: 500px) {
+    .header .brand {
+        font-size: 1.6rem;
+    }
+    
 }
