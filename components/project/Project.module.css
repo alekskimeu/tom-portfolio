@@ -3,7 +3,6 @@
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 10rem;
-    color: var(--white);
 }
 
 .project:nth-child(even) .imageContainer {
@@ -62,12 +61,13 @@
 .title {
     font-size: 2rem;
     margin: 1rem 0;
+    color: var(--white);
 }
 
 .description {
-    opacity: .8;
     font-size: 1.1rem;
     margin-bottom: 2rem;
+    color: var(--text-secondary);
 }
 
 .more {

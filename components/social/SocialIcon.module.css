@@ -27,11 +27,12 @@
 .title {
     font-weight: 500;
     font-size: 1.3rem;
+    color: var(--white);
 }
 
 .description {
     font-size: 1rem;
-    opacity: .7;
+    color: var(--text-secondary);
 }
 
 @media screen and (max-width: 624px) {

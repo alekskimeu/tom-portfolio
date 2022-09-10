@@ -27,6 +27,7 @@ const Testimony = ({ testimony }) => {
 				<h1 className={styles.description}>{testimony.description}</h1>
 				<h2 className={styles.name}>{testimony.name}</h2>
 				<p className={styles.role}>{testimony.role}</p>
+				<p className={styles.company}>{testimony.company}</p>
 			</div>
 		</div>
 	);

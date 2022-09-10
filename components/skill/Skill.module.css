@@ -1,6 +1,5 @@
 .skill {
     max-height: 420px;
-    color: var(--white);
     text-align: center;
     background-color: var(--primary-bg);
     box-shadow: 4px 8px 16px #2d2e32;
@@ -26,6 +25,7 @@
 }
 
 .title {
+    color: var(--white);
     margin: 1rem 0;
     font-weight: 700;
     font-size: 1.6rem;
@@ -38,7 +38,7 @@
 
 .description {
     font-size: 1.1rem;
-    opacity: .8;
+    color: var(--text-primary);
     transition: all .5s ease
 }
 

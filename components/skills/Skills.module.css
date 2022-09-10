@@ -19,17 +19,17 @@
 
 .content {
     flex: 1.5;
-    color: var(--white);
 }
 
 .title {
+    color: var(--white);
     margin: 1rem 0;
     font-weight: 600;
     font-size: 2rem;
 }
 
 .description {
-    opacity: .8;
+    color: var(--text-secondary);
     margin-bottom: 4rem;
     font-size: 1.1rem;
 }

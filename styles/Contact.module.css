@@ -10,19 +10,16 @@
     gap: 10rem;
 }
 
-.content {
-    color: var(--white);
-}
-
 .title {
     margin: .8rem 0 1rem 0;
     font-size: 2rem;
     font-weight: 600;
+    color: var(--white);
 }
 
 .description {
     font-size: 1.1rem;
-    opacity: .8;
+    color: var(--text-secondary);
 }
 
 .icons {
@@ -49,7 +46,7 @@
     background-color: var(--primary-bg);
     border: 1px solid var(--primary);
     padding: 1rem 1.2rem;
-    color: var(--white);
+    color: var(--text-secondary);
     font-size: 1.1rem;
     border-radius: 1rem;
     -webkit-border-radius: 1rem;
@@ -59,7 +56,7 @@
 }
 
 .form input::placeholder, .form textarea::placeholder {
-    color: var(--white);
+    color: var(--text-secondary);
 }
 
 

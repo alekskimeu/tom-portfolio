@@ -43,7 +43,6 @@
 
 .content {
     flex: 2;
-    color: var(--white);
 }
 
 .content i {
@@ -52,21 +51,26 @@
 }
 
 .description {
-    margin: 2rem 0;
+    margin: 1.2rem 0;
     font-weight: 400;
     font-size: 1.1rem;
-    opacity: .8;
+    color: var(--text-secondary);
 }
 
 .name {
     font-size: 1.4rem;
     color: var(--secondary);
     font-weight: 400;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
+}
+
+.role, .company {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
 }
 
 .role {
-    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
 }
 
 @media screen and (max-width: 1000px) {

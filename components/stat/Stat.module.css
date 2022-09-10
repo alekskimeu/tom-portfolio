@@ -1,6 +1,5 @@
 .stat {
     background-color: var(--primary-bg);
-    color: var(--white);
     padding: 6rem 3rem;
     text-align: center;
 }
@@ -24,7 +23,7 @@
 .title {
     font-weight: 400;
     font-size: 1.4rem;
-    opacity: .9;
+    color: var(--text-secondary);
 }
 
 @media screen and (max-width: 1000px) {

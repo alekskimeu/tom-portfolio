@@ -1,11 +1,8 @@
-.content {
-    color: var(--white);
-}
-
 .title {
     font-size: 5rem;
     margin-bottom: 2rem;
     line-height: 1.2;
+    color: var(--white);
 }
 
 .greeting {
@@ -14,9 +11,9 @@
 }
 
 .description {
+    color: var(--text-primary);
     font-size: 1.3rem;
     font-weight: 400;
-    opacity: .8;
     margin-bottom: 4rem;
 }
 
