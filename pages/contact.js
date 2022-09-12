@@ -65,10 +65,10 @@ const contact = () => {
 						>
 							<form>
 								<div className={styles.group}>
-									<input type="text" placeholder="Full Name" />
-									<input type="email" placeholder="Email" />
+									<input type="text" placeholder="Jane Doe" />
+									<input type="email" placeholder="janedoe@gmail.com" />
 								</div>
-								<textarea placeholder="Message" rows="10" />
+								<textarea placeholder="Your message" rows="10" />
 								<Button title="Send" />
 							</form>
 						</div>

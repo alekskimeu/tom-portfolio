@@ -57,6 +57,7 @@
 
 .form input::placeholder, .form textarea::placeholder {
     color: var(--text-secondary);
+    opacity: .6;
 }
 
 
