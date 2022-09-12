@@ -29,11 +29,38 @@
 }
 
 .copyright {
+    max-width: 1600px;
+    margin: auto;
     border-top: 1px solid rgba(231, 231, 231, .2);
     padding-top: 2rem;
     text-align: center;
     color: var(--text-secondary);
     opacity: .8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.copyright .signature {
+    font-size: 1rem;
+}
+
+.copyright a {
+    color: var(--secondary);
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.copyright a:hover {
+    opacity: .8;
+}
+
+.copyright i {
+    color: rgb(212, 0, 0);
 }
 
 @media screen and (max-width: 768px) {
@@ -46,5 +73,15 @@
         align-items: center;
         text-align: center;
         gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .footer {
+        height: 20rem;
+    }
+
+    .copyright {
+        flex-direction: column;
     }
 }
