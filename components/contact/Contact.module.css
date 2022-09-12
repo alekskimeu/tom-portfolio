@@ -98,3 +98,14 @@
     }
     
 }
+
+@media screen and (max-width: 620px) {
+    .description {
+        display: none;
+    }
+
+    .title {
+        font-size: 1.6rem;
+        margin-bottom: 3rem;
+    }
+}
