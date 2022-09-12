@@ -1,8 +1,8 @@
 import React, {useState} from "react";
 import Link from "next/link";
-import styles from "../../styles/Header.module.css";
 import Button from "../button/Button";
 import Icon from "../icon/Icon";
+import styles from "./Header.module.css";
 
 const Header = () => {
 
