@@ -1,28 +1,19 @@
 .btn {
-    font-size: 1.2rem;
-    background-color: var(--secondary);
-    color: var(--primary-bg);
-    width: fit-content;
-    padding: 1rem 2.4rem;
-    border-radius: 1rem;
-    -webkit-border-radius: 1rem;
-    -moz-border-radius: 1rem;
-    -ms-border-radius: 1rem;
-    -o-border-radius: 1rem;
-    transition: all .5s ease;
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -ms-transition: all .5s ease;
-    -o-transition: all .5s ease;
-}
-
-.btn:hover {
-    opacity: .8;
+	font-size: 1.2rem;
+	background-color: var(--secondary);
+	color: var(--primary-bg);
+	width: fit-content;
+	padding: 1rem 2.4rem;
+	border-radius: 1rem;
+	-webkit-border-radius: 1rem;
+	-moz-border-radius: 1rem;
+	-ms-border-radius: 1rem;
+	-o-border-radius: 1rem;
 }
 
 @media screen and (max-width: 768px) {
-    .btn {
-        padding: 1rem 2rem;
-        font-size: 1rem;
-    }
+	.btn {
+		padding: 1rem 2rem;
+		font-size: 1rem;
+	}
 }
