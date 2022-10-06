@@ -18,12 +18,6 @@ const Footer = () => {
 			</div>
 			<div className={styles.copyright}>
 				<p>Copyright © {new Date().getFullYear()} Thomas </p>
-				<p className={styles.signature}>
-					<a href="https://alex-kimeu.com" target="_blank" rel="noreferrer">
-						Alex
-					</a>{" "}
-					made it <i className="fas fa-heart"></i>
-				</p>
 			</div>
 		</footer>
 	);
