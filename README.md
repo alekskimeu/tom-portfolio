@@ -56,18 +56,6 @@ Navigate to: http://localhost:3000
 
 
 
-## Contributing
-
-Contributions are always welcome!
-
-Spotted a bug or got an idea to improve this? Go ahead & submit a PR.
-
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
-
 ## Screenshots
 
 ### About
@@ -91,3 +79,14 @@ Spotted a bug or got an idea to improve this? Go ahead & submit a PR.
 
 ### Contact Page
 ![Achievements](https://raw.githubusercontent.com/alekskimeu/tom-portfolio/main/public/assets/contact-page.png)
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+## Contributing
+
+Contributions are always welcome!
+
+Spotted a bug or got an idea to improve this? Go ahead & submit a PR.
+
