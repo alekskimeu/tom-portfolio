@@ -6,7 +6,7 @@ export const projects = [
 		subtitle: "Project 1",
 		description:
 			"The world breaks everyone, and afterwards, many are strong at the broken places. The world breaks everyone, and afterwards, many are strong at the broken places. The world breaks everyone, and afterwards, many are strong at the broken places. The world breaks everyone, and afterwards, many are strong at the broken places.",
-		image: image,
+		image: require("../public/assets/faraja.png"),
 		url: "https://behance.com"
 	},
 	{
